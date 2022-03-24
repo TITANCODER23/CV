@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My personal details </title>
+    <link rel="stylesheet" href="C:\Users\KUSH\Desktop\UDEMY WEEB DEVELOPMENT 2022\css\styles.css">
+</head>
+
+<body style="background-color: #E3FDFD;">
+  <h1>My contact details</h1>
+  <p>Address: A-53 Akshar bunglows behing AIMS oxygen besides mathura nagari op road vadodara.</p>
+  <p>Mobile no: 9265620938</p>
+  <p>my email id: kushraj1216@gmail.com</p>
+  <hr>
+  <h2>Contact me Form</h2>
+  <form action="mailto:kushraj1216@gmail.com" method="post" enctype="text/plain">
+    <ul>
+
+
+<!-- Here if we submit our whole form after clicking submit it will take us to the home page
+because of the term in form known as ""ACTION"" as index.html is stored in it.....
+1) instead use mailto: after clicking it  it will pop up the email box in which the to option will be of email in mailto
+2) Post in this case simply means it transfers what the users types into the input fields into the email clients
+3) now we will add (((enctype))) which will have option of text/plain due to that we will not see any boring symbols in mail
+4) we add some thing to name attribute in all as it will be able to disintnguish clearly what is name/ what is email etc  -->
+<li>
+    <label>Your name: </label>
+    <input type="text" name="Your name" value="">  <!-- To store the information we will add input -->
+    <input type="color" name="" value=""></li><br>
+
+<li>
+      <label>Select date: </label>
+      <input type="date" name="Select date" value=""> </li><br>
+
+
+    <li> <label>Enter your email: </label>
+      <input type="email" name="Enter your email" value=""></li> <br>
+<li>
+    <label>Password: </label>
+    <input type="password" name="password" value=""></li> <br>
+
+<li>
+ <label>Enter your message: </label>
+ <textarea name="Enter your message" rows="10" cols="30"></textarea></li> <br>
+   <input type="submit" name="" ><!-- To submit the information you  will just need to add submit in type and delete value((m imp)) -->
+
+  </ul>
+</form>
+
+</body>
+
+</html>
